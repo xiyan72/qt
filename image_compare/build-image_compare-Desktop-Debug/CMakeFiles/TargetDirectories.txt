@@ -1,0 +1,3 @@
+/home/xiyan/source/image_visual_compare/image_compare/build-image_compare-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/xiyan/source/image_visual_compare/image_compare/build-image_compare-Desktop-Debug/CMakeFiles/image_compare.dir
+/home/xiyan/source/image_visual_compare/image_compare/build-image_compare-Desktop-Debug/CMakeFiles/edit_cache.dir
