@@ -1091,6 +1091,8 @@ image_compare.h
 /home/xiyan/source/image_visual_compare/image_compare/image_compare/image_compare.h
 iostream
 -
+fstream
+-
 opencv2/core.hpp
 /home/xiyan/source/image_visual_compare/image_compare/image_compare/opencv2/core.hpp
 opencv2/imgcodecs.hpp

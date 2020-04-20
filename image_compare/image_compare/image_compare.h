@@ -1,6 +1,7 @@
 #ifndef IMAGE_COMPARE_H
 #define IMAGE_COMPARE_H
 #include <iostream>
+#include <fstream>
 #include "opencv2/core.hpp"
 #include "opencv2/imgcodecs.hpp"
 #include "opencv2/highgui.hpp"
@@ -16,5 +17,7 @@ void compare_design_to_scanbyfeature(Mat &imgfromscanner,Mat &imReferencefromdes
 Rect getRegionsRectfromVector(vector<std::string> coordinationString,int region_no,char delimiter);
 vector<std::string> getRegionsCoordinationStringtoVector(string parameter,char delimiter);
 void generateImageClipFile( string parameter,char delimiterLevel1,char delimiterLevel2,Mat designImage,string depositPosition);
+void compare_design_to_modifieddesign(string image_designmodified,string imReferencefromdesigner,string addweightcoefficient,string);
+bool is_file_exist(const char *fileName);
 #endif // IMAGE_COMPARE_H
 

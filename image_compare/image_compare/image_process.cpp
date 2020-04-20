@@ -40,3 +40,8 @@ void generateImageClipFile( string parameter,char delimiterLevel1,char delimiter
        imwrite(depositPosition+string("c")+to_string(i)+string(".jpg"),mymat);
     }
 }
+bool is_file_exist(const char *fileName)
+{
+    std::ifstream infile(fileName);
+    return infile.good();
+}
