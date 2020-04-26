@@ -55,7 +55,7 @@ int main(int argc, char** argv)
     {
 
 
-        if (is_file_exist(image_designmodified.c_str())){
+        if ( is_file_exist(image_designmodified.c_str())){
          compare_design_to_modifieddesign(image_designmodified, imageFiledesigned,addweight,imgpositionwrite);
         }
 

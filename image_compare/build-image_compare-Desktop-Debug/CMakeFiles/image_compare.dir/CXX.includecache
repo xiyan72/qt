@@ -1097,6 +1097,8 @@ opencv2/core.hpp
 /home/xiyan/source/image_visual_compare/image_compare/image_compare/opencv2/core.hpp
 opencv2/imgcodecs.hpp
 /home/xiyan/source/image_visual_compare/image_compare/image_compare/opencv2/imgcodecs.hpp
+opencv2/imgproc.hpp
+/home/xiyan/source/image_visual_compare/image_compare/image_compare/opencv2/imgproc.hpp
 opencv2/highgui.hpp
 /home/xiyan/source/image_visual_compare/image_compare/image_compare/opencv2/highgui.hpp
 opencv2/opencv.hpp
